@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "unbounded";
+    src: url(Fontes/Unbounded-Bold.ttf);
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(Fontes/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.corpoEscuro{
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+.corpoClaro{
+    background-color: #FFFFFF;
+    color: #232323;
+}
+header{display: block;
+    margin: 75px auto 0;
+    width: auto;
+    height: auto;
+}
+#imgLogo{
+    display: inline-flex;
+    margin: 0 40% 0 20%;
+}
+#botaoDeModos{
+    display: inline-flex;
+    border: none;
+    background: none;
+    border: none;
+    background: none;
+}
+
+h1{
+    font-family: "Unbounded",sans-serif;
+    font-size: 64px;
+    text-align: center;
+}
+span{
+    color: #9747FF;
+}
+p{
+    display: block;
+    margin: 24px auto 0;
+    font-family:"Poppins", sans-serif ;
+    font-size: 24px;
+    text-align: center;
+    width: 792px
+}
+.linkEscuro{  
+    color: #FFFFFF;
+    display: block;
+    font-family:"Poppins", sans-serif ;
+    font-size: 24px;
+    border-radius: 36px;
+    background-color: #9747FF;
+    text-decoration: none;
+    text-align: center;
+    width: 340px;
+    height: 66px;
+    line-height: 66px;
+    margin: 40px auto;
+}
+.linkClaro{  
+    color: #000000;
+    display: block;
+    font-family:"Poppins", sans-serif ;
+    font-size: 24px;
+    border-radius: 36px;
+    background-color: #9747FF;
+    text-decoration: none;
+    text-align: center;
+    width: 340px;
+    height: 66px;
+    line-height: 66px;
+    margin: 40px auto;
+}
+a:hover{
+    background-color: #8233E8;
+}
+#imgCelulares{
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
+}
+@media(max-width: 768px) {
+    
+
+    #imgLogo{
+        margin: 0 45% 0 2%;
+    }
+    p{
+        width: 648px;
+    }
+}
+@media(max-width: 480px){
+    #imgLogo{
+        margin: 0 10% 0 8% ;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    #imgCelulares{
+        height: 230px;
+        width: 341px;
+    }
+    a{
+        width: 251px;
+        
+    }
+}
