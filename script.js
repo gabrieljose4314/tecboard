@@ -13,7 +13,7 @@ function alterarTema(){
         corpo.classList.remove( 'corpoClaro')
         corpo.classList.add('corpoEscuro')
         imgTemas.setAttribute('src', './img/modo-claro.png')
-        logo.setAttribute('src','./img/logo-tecboard-branco.png')
+        logo.setAttribute('src','./img/Logo-tecboard-branco.png')
         link.classList.remove('linkClaro')
         link.classList.add('linkEscuro')
         
@@ -22,7 +22,7 @@ function alterarTema(){
           corpo.classList.remove('corpoEscuro')
           corpo.classList.add('corpoClaro')
           imgTemas.setAttribute('src', './img/modo-noturno.png')
-          logo.setAttribute('src','./img/logo-tecboard-preta.png')
+          logo.setAttribute('src','./img/Logo-tecboard-preta.png')
           link.classList.remove('linkEscuro')
           link.classList.add('linkClaro')
           
